@@ -43,11 +43,11 @@
             //               |     |      |      |      |        |  |       |      |       |       |      |
 
             bindings = <
-&kp CARET         &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp MINUS  &kp SLASH                        &kp F6     &kp F7    &kp F8           &kp F9     &kp F10   &kp F11
-&kp ESCAPE        &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp PLUS   &kp ASTERISK                     &kp N6     &kp N7    &kp N8           &kp N9     &kp N0    &kp F12
-&kp TAB           &kp KP_NUMBER_3  &kp KP_NUMBER_2  &kp KP_NUMBER_1  &kp COMMA  &kp BACKSPACE                    &kp CARET  &kp AMPS  &kp KP_MULTIPLY  &kp LPAR   &kp RPAR  &kp PIPE
-&kp LEFT_CONTROL  &kp EQUAL        &kp KP_NUMBER_0  &kp KP_NUMBER_0  &kp LEFT   &kp RIGHT      &trans    &trans  &kp LBKT   &kp RBKT  &kp SEMI         &kp COLON  &kp BSLH  &trans
-                                   &trans           &trans           &trans     &trans         &trans    &trans  &trans     &trans    &trans           &trans
+&kp CARET         &kp N7     &kp N8  &kp N9  &kp MINUS  &kp SLASH                        &kp F6     &kp F7    &kp F8           &kp F9     &kp F10   &kp F11
+&kp ESCAPE        &kp N4     &kp N5  &kp N6  &kp PLUS   &kp ASTERISK                     &kp N6     &kp N7    &kp N8           &kp N9     &kp N0    &kp F12
+&kp TAB           &kp N1     &kp N2  &kp N3  &kp COMMA  &kp BACKSPACE                    &kp CARET  &kp AMPS  &kp KP_MULTIPLY  &kp LPAR   &kp RPAR  &kp PIPE
+&kp LEFT_CONTROL  &kp EQUAL  &kp N0  &kp N0  &kp LEFT   &kp RIGHT      &trans    &trans  &kp LBKT   &kp RBKT  &kp SEMI         &kp COLON  &kp BSLH  &trans
+                             &trans  &trans  &trans     &trans         &trans    &trans  &trans     &trans    &trans           &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
