@@ -59,7 +59,7 @@
 &kp TAB           &kp N4     &kp N5  &kp N6  &kp PLUS   &kp ASTERISK                                       &kp N6     &kp N7    &kp N8           &kp N9     &kp N0    &kp F12
 &kp LEFT_SHIFT    &kp N1     &kp N2  &kp N3  &kp COMMA  &holdtapf1 DELETE BACKSPACE                        &kp CARET  &kp AMPS  &kp KP_MULTIPLY  &kp LPAR   &kp RPAR  &kp PIPE
 &kp LEFT_CONTROL  &kp EQUAL  &kp N0  &kp N0  &kp LEFT   &kp RIGHT                    &kp K_MUTE    &trans  &kp LBKT   &kp RBKT  &kp SEMI         &kp COLON  &kp BSLH  &trans
-                             &kp N0  &kp N0  &kp LG(LS(LEFT_WIN)))   &tog 1                       &trans        &trans  &trans     &trans    &trans           &trans
+                             &kp N0  &kp N0  &kp LG(LS(LEFT_WIN))   &tog 1                       &trans        &trans  &trans     &trans    &trans           &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
